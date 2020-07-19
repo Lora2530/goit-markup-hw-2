@@ -12,7 +12,7 @@
     width: 153px;
     height: 31px;
     top: 24px;
-    
+
 }
 .Studio{
     color: var (-darc-color);
@@ -36,6 +36,8 @@
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #757575;
 }
 .Uslug {
     font-size: 14px;
