@@ -1,5 +1,121 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+:root {
+    -accent-color: #f3b121;
+    -darc-color: #000000;
+    -grey-color: #212121
+
+}
+.web{
+    color: #2196F3;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    width: 153px;
+    height: 31px;
+    top: 24px;
+    
+}
+.Studio{
+    color: var (-darc-color);
+}
+.Stu{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var (-grey-color);
+    text-decoration: none;
+}
+.Item:hover,
+.Item:focus{
+    var(-accent-color); 
+}
+.Efect{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.Uslug {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}   
+.Ideal{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.Shem{
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var (-grey-color);
+}
+.Dodatok{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.Komand{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var (-grey-color);
+}
+.Pipel {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: var (-grey-color);
+}
+.Profession {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.Client{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var (-grey-color);
+}
+.City{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.Adres{
+background: #2F303A;
+}
+.Studio1{
+color: #FFFFFF;
+}
+.Prin{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.tel{ 
+    color: rgba(255, 255, 255, 0.6);
 }
